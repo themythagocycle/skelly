@@ -1,28 +1,18 @@
 == README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Base application
 
-Things you may want to cover:
+ruby 2.2.1p85 (2015-02-26 revision 49769) [x86_64-darwin14]
 
-* Ruby version
+rails 4.2.4
 
-* System dependencies
+postgres (PostgreSQL) 9.4.4
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Deployment:
+git clone https://github.com/themythagocycle/skelly.git
+rake db:create
+rake db:migrate
+to change the application name, modify line 9 in /app/config/application.rb
 
 
-Please feel free to use a different markup language if you do not plan to run
 <tt>rake doc:app</tt>.
