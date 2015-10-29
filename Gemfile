@@ -15,6 +15,7 @@ gem 'devise'
 gem 'brakeman'
 gem 'kaminari'
 gem 'paperclip'
+gem 'lazy_high_charts'
 
 group :development, :test do
   gem 'byebug'
