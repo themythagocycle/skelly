@@ -9,7 +9,6 @@ gem 'jquery-rails'
 gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0', group: :doc
-gem 'better_errors'
 gem 'bootstrap-sass'
 gem 'devise'
 gem 'brakeman'
@@ -18,6 +17,7 @@ gem 'paperclip'
 gem 'lazy_high_charts'
 
 group :development, :test do
+  gem 'better_errors'
   gem 'byebug'
   gem 'capybara'
   gem 'minitest'
